@@ -9,7 +9,15 @@ body {
     font-family: "Roboto Mono", monospace;  
     background: url(circle.png) no-repeat;
 }
-
+.navbar navbar-expand-md bg-dark navbar-dark {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar is on top of other content */
+  }
+  .custom-user-icon {
+    color: #3498db; /* Change the color to your desired color */
+    font-size: 24px; /* Change the font size to your desired size */
+  }  
 .navbar {
     display: flex;
     background: transparent;
@@ -204,7 +212,7 @@ p{
     padding-top: 240px;
 }
 #id2{
-    padding: top 0px;;
+    padding-top: 40px;
 }
 .space {
     display: flex;
